@@ -1,5 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
 .App {
   text-align: center;
+  width: 100%;
 }
 
 .App-logo {

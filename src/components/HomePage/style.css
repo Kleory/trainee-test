@@ -1,0 +1,19 @@
+.home-root {
+  max-height: 100vh;
+  height: 110vw;
+  width: 100%;
+  background-image: url(../../images/Background.jpg);
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+  .home-root {
+    height: 80vw;
+    align-items: flex-start;
+  }
+}
